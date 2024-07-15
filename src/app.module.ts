@@ -12,7 +12,7 @@ import { GerenteController } from './controllers/gerente.controller';
 
 @Module({
   imports: [
-    MongooseModule.forRoot('mongodb://localhost/nome_do_banco_de_dados'),
+    MongooseModule.forRoot('MONGO_URL'),
     ClienteModule,
     ContaModule,
     GerenteModule
